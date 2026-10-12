@@ -11,7 +11,7 @@ data:extend {
         highlight = false,
         resource_patch_search_radius = 6,
         map_color = { r = 176, g = 222, b = 236, a = 0.63 },
-        mineable = {
+        minable = {
             mining_time = 1,
             result = "iron-ore",
             mining_particle = "stone-particle"
