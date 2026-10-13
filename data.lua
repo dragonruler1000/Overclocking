@@ -2,7 +2,7 @@ data:extend {
     {
         type = "resource",
         name = "cryolite-ore",
-        icon = "src/graphics/icons/iron-ore.png",
+        icon = "__Overclocking__/src/graphics/icons/iron-ore.png",
         icon_size = 32,
         flags = { "placeable-neutral" },
         category = "basic-solid",
@@ -10,7 +10,7 @@ data:extend {
         infinite = false,
         highlight = false,
         resource_patch_search_radius = 6,
-        map_color = { r = 176, g = 222, b = 236, a = 0.63 },
+        map_color = { r = 0.69, g = 0.87, b = 0.93, a = 0.63 },
         minable = {
             mining_time = 1,
             result = "iron-ore",
@@ -32,11 +32,11 @@ data:extend {
         stage_counts = { 0 },
         stages = {
             sheet = {
-                filename = "src/graphics/entity/cryolite-ore/iron-ore.png",
+                filename = "__Overclocking__/src/graphics/entity/cryolite-ore/cryolite-ore.png",
                 priority = "extra-high",
-                width = 75,
-                height = 61,
-                frame_count = 64,
+                width = 32,
+                height = 32,
+                frame_count = 8,
                 variation_count = 1
             }
         }
