@@ -7,7 +7,7 @@ local function resource(resource_parameters, autoplace_parameters)
     return {
         type = resource,
         name = resource_parameters.name,
-        icon = "__Overclocking__/src/graphics/icons/" .. resource_parameters.name .. ".png",
+        icon = "__Overclocking__/graphics/icons/" .. resource_parameters.name .. ".png",
         flags = { "placeable-neutral" },
         order = "a-b-" .. resource_parameters.order,
         tree_removal_probability = 0.8,
@@ -40,7 +40,7 @@ local function resource(resource_parameters, autoplace_parameters)
         stage_counts = { 15000, 9500, 5500, 2900, 1300, 400, 150, 80 },
         stages = {
             sheet = {
-                filename = "__Overclocking__/src/graphics/entity/" .. resource_parameters.name
+                filename = "__Overclocking__/graphics/entity/" .. resource_parameters.name
                     .. "/" .. resource_parameters.name
                     .. ".png",
                 priority = "extra-high",
