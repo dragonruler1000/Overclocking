@@ -3,11 +3,11 @@ local item_tints = require("__Overclocking__.prototypes.item-tints")
 function create_item_parameter(number)
     data:extend({
         {
-            tyoe = "item",
+            type = "item",
             name = "parameter-" .. number,
             icon = "__Overclocking__/graphics/icons/parameter/parameter-" .. number .. ".png",
             localised_name = { "parameter-x", tostring(number) },
-            flags = {"always-show"},
+            flags = { "always-show" },
             subgroup = "parameters",
             order = "a",
             parameter = true,
