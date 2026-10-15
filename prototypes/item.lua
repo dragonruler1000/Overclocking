@@ -25,7 +25,7 @@ data:extend
     {
         type = "item",
         name = "cryolite-ore",
-        icon = "__Overclocking__/graphics/icons/iron-ore",
+        icon = "__Overclocking__/graphics/icons/cryolite-ore.png",
         subgroup = "raw-resource",
         order = "a[cryolite-ore]",
         stack_size = 50
@@ -33,6 +33,9 @@ data:extend
     {
         type = "item",
         name = "cryolite-plate",
-        subgroup = "intermediate-product"
+        icon = "__Overclocking__/graphics/icons/iron-plate.png",
+        subgroup = "intermediate-product",
+        order = "a[cryolite-plate]",
+        stack_size = 100
     }
 })

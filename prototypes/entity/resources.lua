@@ -1,11 +1,11 @@
 -- Code the base game uses for resources - https://github.com/wube/factorio-data/blob/master/base/prototypes/entity/resources.lua
 local resource_autoplace = require("resource-autoplace")
 
-resource_autoplace.initialize_patch_set("cryolite-ore", true)
+resource_autoplace.initialize_patch_set("cryolite-ore", false)
 
 local function resource(resource_parameters, autoplace_parameters)
     return {
-        type = resource,
+        type = "resource",
         name = resource_parameters.name,
         icon = "__Overclocking__/graphics/icons/" .. resource_parameters.name .. ".png",
         flags = { "placeable-neutral" },
