@@ -1,7 +1,7 @@
 data:extend(
     {
         {
-            type = "autoplace-controls",
+            type = "autoplace-control",
             name = "cryolite-ore",
             richness = true,
             order = "a-g",
