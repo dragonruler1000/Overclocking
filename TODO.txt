@@ -1,0 +1,6 @@
+
+x add cryolite ore
+x add cryolite plates item and recipe
+x add a overclocking module item and recipe
+(A) get cryolite ore to generate in the world
+(B) 

@@ -60,7 +60,7 @@ data:extend({
     resource({
         name = "cryolite-ore",
         order = "b",
-        map_color = { r = 0.69, g = 0.87, b = 0.93, a = 0.63 },
+        map_color = { r = 0.082, g = 0.325, b = 0.569, a = 0.772 },
         mining_time = 1,
         mining_visualisation_tint = { r = 0.895, g = 0.965, b = 1.000, a = 1.000 }
     },

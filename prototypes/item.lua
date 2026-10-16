@@ -56,7 +56,7 @@ data:extend
         color_hint = {text = "O"},
         category = "speed",
         tier = 1,
-        order = "a[overclock]-a[overclock-module-1]",
+        order = "b[overclock]-b[overclock-module-1]",
         inventory_move_sound = item_sounds.module_inventory_move,
         pick_sound = item_sounds.module_inventory_pickup,
         drop_sound = item_sounds.module_inventory_move,
