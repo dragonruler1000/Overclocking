@@ -5,5 +5,9 @@ x get cryolite ore to generate in the world
 x get cryolite plate recipe to need a furnace
 x add an overclocking tower
 x add a recipie for the overclocking tower.
-[A] make sure that cryolight ore can actualy be mined
-[B] fix recipe for oc_tower so it show up in the menu.
+x make sure that cryolight ore can actualy be mined.
+x fix recipe for oc_tower so it show up in the menu.
+add a research to lock the overclocking tower and module behind.
+add a coolent fluid for the overclocking tower - fluid and recipe
+make the overclocking tower need the coolent fluid
+make textures for the items and entites added
