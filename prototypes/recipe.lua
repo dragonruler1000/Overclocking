@@ -33,7 +33,7 @@ data:extend
     {
         type = "recipe",
         name = "overclocking-module",
-        enabled = true,
+        enabled = false,
         ingredients = {
             { type = "item", name = "advanced-circuit", amount = 5 },
             { type = "item", name = "electronic-circuit", amount = 5 },
@@ -45,7 +45,7 @@ data:extend
     {
         type = "recipe",
         name = "oc_tower",
-        enabled = true,
+        enabled = false,
         ingredients = {
             { type = "item", name = "electronic-circuit", amount = 20 },
             { type = "item", name = "advanced-circuit", amount = 20 },
@@ -54,5 +54,18 @@ data:extend
         },
         energy_required = 15,
         results = { { type = "item", name = "oc_tower", amount = 1 } }
+    },
+    {
+        type = "recipe",
+        name = "coolent",
+        enabled = false,
+        category = "chemistry",
+        ingredients = {
+            {type = "fluid", name = "water", amount = 20},
+            {type = "item", name = "cryolite-plate", amount = 20},
+            {type = "fluid", name = "light-oil", amount = 20}
+        },
+        energy_required = 15,
+        results = {{type = "fluid", name = "coolent", amount = 40}}
     }
 })

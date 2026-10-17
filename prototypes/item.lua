@@ -87,5 +87,5 @@ data:extend
         place_result = "oc-tower",
         stack_size = 20,
         random_tint_color = item_tints.iron_rust
-    }
+    },
 })

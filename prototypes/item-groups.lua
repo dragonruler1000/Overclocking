@@ -19,6 +19,12 @@ data:extend(
         name = "oc-resource",
         group = "oc-items",
         order = "a"
+    },
+    {
+        type = "item-subgroup",
+        name = "oc-fluid",
+        group = "oc-items",
+        order = "c"
     }
     }
 )
