@@ -23,7 +23,7 @@ data:extend
     {
         type = "recipe",
         name = "cryolite-plate",
-        categories = { "smelting" },
+        category = "smelting",
         auto_recycle = false,
         energy_required = 3.2,
         ingredients = { { type = "item", name = "cryolite-ore", amount = 1 } },
@@ -40,6 +40,19 @@ data:extend
             { type = "item", name = "cryolite-plate", amount = 5 }
         },
         energy_required = 15,
-        results = {{type = "item", name = "overclock-module", amount = 1}}
+        results = { { type = "item", name = "overclock-module", amount = 1 } }
+    },
+    {
+        type = "recipe",
+        name = "oc_tower",
+        enabled = false,
+        energy_required = 15,
+        ingredients = {
+            { type = "item", name = "electronic-circuit", amount = 20 },
+            { type = "item", name = "advanced-circuit", amount = 20 },
+            { type = "item", name = "cryolite-plate", amount = 10 },
+            { type = "item", name = "copper-cable", amount = 10 }
+        },
+        results = { { type = "item", name = "oc_tower", amount = 1 } }
     }
 })

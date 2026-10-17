@@ -1,6 +1,9 @@
-
 x add cryolite ore
 x add cryolite plates item and recipe
 x add a overclocking module item and recipe
 x get cryolite ore to generate in the world
-(A) get cryolite plate recipe to need a furnace
+x get cryolite plate recipe to need a furnace
+x add an overclocking tower
+x add a recipie for the overclocking tower.
+[A] make sure that cryolight ore can actualy be mined
+[B] fix recipe for oc_tower so it show up in the menu.

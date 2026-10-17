@@ -53,7 +53,7 @@ data:extend
         name = "overclock-module",
         icon = "__base__/graphics/icons/speed-module.png",
         subgroup = "module",
-        color_hint = {text = "O"},
+        color_hint = { text = "O" },
         category = "speed",
         tier = 1,
         order = "b[overclock]-b[overclock-module-1]",
@@ -62,19 +62,30 @@ data:extend
         drop_sound = item_sounds.module_inventory_move,
         stack_size = 50,
         weight = 20 * kg,
-        effect = 
-        {
+        effect = {
             productivity = 0.04,
             consumption = 0.4,
             pollution = 0.05,
             speed = 0.2
         },
-        beacon_tint = 
-        {
-                  primary = {0.441, 0.714, 1.000, 1.000}, -- #70b6ffff
-                  secondary = {0.388, 0.976, 1.000, 1.000}, -- #63f8ffff
+        beacon_tint = {
+            primary = { 0.441, 0.714, 1.000, 1.000 },  -- #70b6ffff
+            secondary = { 0.388, 0.976, 1.000, 1.000 } -- #63f8ffff
         },
         art_style = "vanilla",
         requires_beacon_alt_mode = false
+    },
+    {
+        type = "item",
+        name = "oc_tower",
+        icon = "__base__/graphics/icons/beacon.png",
+        subgroup = "module",
+        order = "b[oc-tower]",
+        inventory_move_sound = item_sounds.mechanical_inventory_move,
+        pick_sound = item_sounds.mechanical_inventory_pickup,
+        drop_sound = item_sounds.mechanical_inventory_move,
+        place_result = "oc-tower",
+        stack_size = 20,
+        random_tint_color = item_tints.iron_rust
     }
 })
