@@ -7,7 +7,7 @@ x add an overclocking tower
 x add a recipie for the overclocking tower.
 x make sure that cryolight ore can actualy be mined.
 x fix recipe for oc_tower so it show up in the menu.
-add a research to lock the overclocking tower and module behind.
-add a coolent fluid for the overclocking tower - fluid and recipe
-make the overclocking tower need the coolent fluid
+x add a research to lock the overclocking tower and module behind.
+x add a coolent fluid for the overclocking tower - fluid and recipe
+x make the overclocking tower need the coolent fluid - the nonstandard beacons mod made this easy.
 make textures for the items and entites added
