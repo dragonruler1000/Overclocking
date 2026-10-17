@@ -63,7 +63,7 @@ data:extend
         stack_size = 50,
         weight = 20 * kg,
         effect = {
-            productivity = 0.04,
+            productivity = 0.2,
             consumption = 0.4,
             pollution = 0.05,
             speed = 0.2
@@ -88,4 +88,58 @@ data:extend
         stack_size = 20,
         random_tint_color = item_tints.iron_rust
     },
+    {
+        type = "item",
+        name = "oc-module-2",
+        icon = "__base__/graphics/icons/speed-module-2.png",
+        subgroup = "oc-module",
+        color_hint = { text = "O" },
+        category = "speed",
+        tier = 2,
+        order = "b[overclock]-b[overclock-module-2]",
+        inventory_move_sound = item_sounds.module_inventory_move,
+        pick_sound = item_sounds.module_inventory_pickup,
+        drop_sound = item_sounds.module_inventory_move,
+        stack_size = 50,
+        weight = 19 * kg,
+        effect = {
+            productivity = 0.4,
+            consumption = 0.5,
+            pollution = 0.05,
+            speed = 0.4
+        },
+        beacon_tint = {
+            primary = { 0.441, 0.714, 1.000, 1.000 },  -- #70b6ffff
+            secondary = { 0.388, 0.976, 1.000, 1.000 } -- #63f8ffff
+        },
+        art_style = "vanilla",
+        requires_beacon_alt_mode = false
+    },
+    {
+        type = "item",
+        name = "oc-module-3",
+        icon = "__base__/graphics/icons/speed-module-3.png",
+        subgroup = "oc-module",
+        color_hint = { text = "O" },
+        category = "speed",
+        tier = 3,
+        order = "b[overclock]-b[overclcok-module-2]",
+        inventory_move_sound = item_sounds.module_inventory_move,
+        pick_sound = item_sounds.module_inventory_pickup,
+        drop_sound = item_sounds.module_inventory_move,
+        stack_size = 50,
+        weight = 18 * kg,
+        effect = {
+            productivity = 0.8,
+            consumption = 0.6,
+            pollution = 0.05,
+            speed = 0.8
+        },
+        beacon_tint = {
+            primary = { 0.441, 0.714, 1.000, 1.000 },  -- #70b6ffff
+            secondary = { 0.388, 0.976, 1.000, 1.000 } -- #63f8ffff
+        },
+        art_style = "vanilla",
+        requires_beacon_alt_mode = false
+    }
 })
