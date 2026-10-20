@@ -51,7 +51,7 @@ data:extend
     {
         type = "module",
         name = "overclock-module",
-        icon = "__base__/graphics/icons/speed-module.png",
+        icon = "__Overclocking__/graphics/icons/overclcoking-module.png",
         subgroup = "oc-module",
         color_hint = { text = "O" },
         category = "speed",
