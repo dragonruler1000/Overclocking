@@ -1,9 +1,9 @@
 {
     "name": "Overclocking",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "title": "Overclocking",
     "author": "Minecraftchest2",
-    "factorio_version": "2.0",
+    "factorio_version": "2.1",
     "dependencies": ["base >= 2.0", "zzz-nonstandard-beacons >= 1.4.2"],
     "description": "A mod that adds an overclocking module, cooling towers, and a new ore"
 }
