@@ -23,7 +23,7 @@ data:extend
     {
         type = "recipe",
         name = "cryolite-plate",
-        category = "smelting",
+        categories = {"smelting"},
         auto_recycle = false,
         energy_required = 3.2,
         ingredients = { { type = "item", name = "cryolite-ore", amount = 1 } },
@@ -59,7 +59,7 @@ data:extend
         type = "recipe",
         name = "coolent",
         enabled = false,
-        category = "chemistry",
+        categories = {"chemistry"},
         ingredients = {
             { type = "fluid", name = "water", amount = 20 },
             { type = "item", name = "cryolite-plate", amount = 20 },
